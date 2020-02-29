@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "proyect-w-redux-compodoc": {
@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,7 +88,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "src/scss/main.scss"
             ],
             "scripts": []
           }
@@ -119,6 +120,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyect-w-redux-compodoc"
+    }
+  },
+  "defaultProject": "proyect-w-redux-compodoc",
+  "cli": {
+    "analytics": "4298e3c8-ee71-4a4b-8118-ca48e392f116"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

@@ -1,0 +1,192 @@
+{
+	"errors": {
+		"no_access": "Você não tem permissões para executar esta ação",
+		"error": "Erro",
+		"server_error": "Erro no servidor",
+		"general_server_error": {
+			"title": "Erro no servidor",
+			"body": "Ocorreu um erro no servidor. Tente novamente"
+		},
+		"server_timeout_error": {
+			"title": "Problema com o servidor",
+			"body": "O servidor demorou muito para responder. Tente novamente"
+		},
+		"server_connection_refused": {
+			"title": "Problema com a conexão",
+			"body": "A conexão com o servidor foi rejeitada. Tente novamente"
+		},
+		"timeout_retries_exceded": "As tentativas de envio da solicitação foram excedidas",
+		"timeout_error": "O servidor demorou muito para responder",
+		"connection_refused": "Conexão do servidor rejeitada"
+	},
+	"confirmations": {
+		"generic": {
+			"title": "Executar a ação",
+			"body": "Você tem certeza de executar esta ação?"
+		},
+		"logout": {
+			"title": "Fechar Sessão",
+			"body": "Tem certeza de que deseja sair?"
+		},
+		"cancel_create_edit": {
+			"title": "Descartar mudanças",
+			"body": "Suas alterações não serão salvas. Você tem certeza?"
+		}
+	},
+	"notifications": {
+		"copied_to_clipboard": "Copiado para a área de transferência"
+	},
+	"labels": {
+		"search": "Pesquisar",
+		"loading": "Carregando",
+		"id": "Id",
+		"name": "Nome",
+		"username": "Nome de usuário",
+		"created_at": "Data de criação",
+		"updated_at": "Data de atualização",
+		"enable": "Ativar",
+		"disable": "Desativar ",
+		"active": "Ativo",
+		"inactive": "Inativo",
+		"images": "Imagens",
+		"pending_upload": "Pendente",
+		"no_admins": "Ainda não há administradores atribuídos",
+		"assing_admins": "Atribuir administradores",
+		"click_to_add": "Clique para adicionar",
+		"click_to_remove": "Clique para remover",
+		"dark_mode": "Modo noturno",
+		"edit_%name%": "Edit {{ name }}",
+		"create_%name%": "Criar {{ name }}",
+		"status": "Estatus",
+		"select": "Selecionar",
+		"superadmin": "Começar como Super Admin",
+		"file_size": "Tamanho do arquivo",
+		"company": "Companhia",
+		"url": "URL",
+		"filters": "Filtros",
+		"total": "Total",
+		"all": "Todos",
+		"date": {
+			"now": "Justo agora",
+			"milliseconds": "Milissegundos",
+			"seconds": "Segundos",
+			"minutes": "Minutos",
+			"hours": "Horas",
+			"days": "Dias",
+			"months": "Meses",
+			"years": "Anos"
+		}
+	},
+	"days": {
+		"monday": "segunda-feira",
+		"tuesday": "terça-feira",
+		"wednesday": "quarta-feira",
+		"thursday": "quinta-feira",
+		"friday": "sexta-feira",
+		"saturday": "sábado",
+		"sunday": "domingo"
+	},
+	"buttons": {
+		"save_changes": "Guardar mudanças",
+		"accept": "Aceitar",
+		"delete": "Excluir",
+		"yes": "Sim",
+		"no": "Não",
+		"edit": "Edit",
+		"see_more": "Ver mais",
+		"create": "Criar ",
+		"retry": "Repetir ",
+		"cancel": "Cancelar",
+		"add": "Adicionar ",
+		"add_more": "Adicione mais",
+		"upload": "Upload",
+		"upload_image": "Carregar imagem",
+		"upload_images": "Carregar imagens",
+		"upload_files": "Carregar arquivos",
+		"add_images": "Adicionar imagens",
+		"admins": "Administradores",
+		"add_admins": "Atribuir administradores",
+		"clear": "Limpo",
+		"close": "Fechar",
+		"send": "Enviar",
+		"add_url": "Adicionar URL",
+		"add_token": "Adicionar token",
+		"copy": "Copiar",
+		"generate_token": "Gerar token",
+		"apply_filters": "Aplicar filtros",
+		"remove_filters": "Remover filtros",
+		"export_to_exel": "Export para excel"
+	},
+	"modal": {
+		"important": "Processo irreversível",
+		"title": {
+			"add_files": "Adicionar arquivos",
+			"add_images": "Adicionar imagens"
+		}
+	},
+	"files_upload": {
+		"drag_and_drop": "Arraste e solte os arquivos aqui",
+		"drop": "Solte os arquivos",
+		"file": "Arquivo ",
+		"file_type": "Tipo",
+		"open_file_explorer": "Abrir arquivo explorador"
+	},
+	"navbar": {
+		"home": "Iniciar",
+		"change_password": "Alterar senha",
+		"exit": "Sair"
+	},
+	"menu": {
+		"title": "Menú",
+		"exit": "Sair"
+	},
+	"forms": {
+		"validation": {
+			"errors": "Existem erros em alguns campos",
+			"required": "Este campo é obrigatório",
+			"minlength": "Este campo deve ter pelo menos {{length}} caracteres",
+			"maxlength": "Este campo deve ter no máximo {{length}} caracteres",
+			"min_max_length": "Este campo deve ter pelo menos {{minLength}} e máximo {{maxLength}} caracteres",
+			"insert_valid_email": "Digite um email válido",
+			"format_hour": "O campo deve ter um formato de hora válido",
+			"password_missmatch": "As senhas não correspondem",
+			"pattern": "Este campo contém um valor inválido",
+			"phone": "O telefone introduzido é inválido"
+		},
+		"label": {
+			"name": "Nome",
+			"user": "Usuário",
+			"company": "Companhia",
+			"key_name": "Nome do código",
+			"password": "Senha",
+			"confirm_password": "Confirmar senha",
+			"current_password": "Senha atual",
+			"new_password": "Nova senha",
+			"email": "Correio eletrônico",
+			"first_name": "Nome",
+			"last_name": "Apelido Paterno",
+			"second_last_name": "Sobrenome Materno",
+			"user_role": "Função de usuário",
+			"description": "Descrição",
+			"address": "Endereço",
+			"type": "Type",
+			"value": "Valor",
+			"week_day": "Dia da semana",
+			"closed": "Fechado",
+			"openAt": "Horário de abertura",
+			"closeAt": "Hora de encerramento",
+			"starting_at": "Data de início",
+			"ending_at": "Data de término",
+			"title": "Título",
+			"date": "Data",
+			"time": "Hora",
+			"mode": "Modo",
+			"choose_date": "Escolha uma data",
+			"content": "Conteúdo",
+			"language": "Língua"
+		}
+	},
+	"pages": {
+
+	}
+}
