@@ -1,0 +1,193 @@
+{
+	"errors": {
+		"change_password": "Change your password, please",
+		"no_access": "You have no permissions to perform this action",
+		"error": "Error",
+		"server_error": "Server error",
+		"general_server_error": {
+			"title": "Server error",
+			"body": "There was an error on server. Try again"
+		},
+		"server_timeout_error": {
+			"title": "Problem with the server",
+			"body": "The server has take much time to respond. Try again"
+		},
+		"server_connection_refused": {
+			"title": "Problem with the server",
+			"body": "The connection to server has been refused. Try again"
+		},
+		"timeout_retries_exceded": "Attempts to send the request have been exceeded",
+		"timeout_error": "The server has take to long to respond",
+		"connection_refused": "Connection to server refused"
+	},
+	"confirmations": {
+		"generic": {
+			"title": "Perform action",
+			"body": "Are you sure to perform this action?"
+		},
+		"logout": {
+			"title": "Log out",
+			"body": "Are you sure you want to exit?"
+		},
+		"cancel_create_edit": {
+			"title": "Discard changes",
+			"body": "Your changes will not be saved. Are you sure?"
+		}
+	},
+	"notifications": {
+		"copied_to_clipboard": "Copied to clipboard"
+	},
+	"labels": {
+		"search": "Search",
+		"loading": "Loading",
+		"id": "Id",
+		"name": "Name",
+		"username": "Username",
+		"created_at": "Created at",
+		"updated_at": "Updated at",
+		"enable": "Activate",
+		"disable": "Deactivate",
+		"active": "Active",
+		"inactive": "Inactive",
+		"images": "Images",
+		"pending_upload": "Pending",
+		"no_admins": "There are no assigned administrators yet",
+		"assing_admins": "Assign administrators",
+		"click_to_add": "Click to add",
+		"click_to_remove": "Click to remove",
+		"dark_mode": "Dark mode",
+		"edit_%name%": "Edit {{ name }}",
+		"create_%name%": "Create {{ name }}",
+		"status": "Status",
+		"select": "Select",
+		"superadmin": "Log In as Super Admin",
+		"file_size": "File size",
+		"company": "Company",
+		"url": "URL",
+		"filters": "Filters",
+		"total": "Total",
+		"all": "All",
+		"date": {
+			"now": "Right now",
+			"milliseconds": "Milliseconds",
+			"seconds": "Seconds",
+			"minutes": "Minutes",
+			"hours": "Hours",
+			"days": "Days",
+			"months": "Months",
+			"years": "Years"
+		}
+	},
+	"days": {
+		"monday": "monday",
+		"tuesday": "tuesday",
+		"wednesday": "wednesday",
+		"thursday": "thursday",
+		"friday": "friday",
+		"saturday": "saturday",
+		"sunday": "sunday"
+	},
+	"buttons": {
+		"save_changes": "Save changes",
+		"accept": "Accept",
+		"delete": "Delete",
+		"yes": "Yes",
+		"no": "No",
+		"edit": "Edit",
+		"see_more": "See more",
+		"create": "Create",
+		"retry": "Retry",
+		"cancel": "Cancel",
+		"add": "Add",
+		"add_more": "Add more",
+		"upload": "Upload",
+		"upload_image": "Upload image",
+		"upload_images": "Upload images",
+		"upload_files": "Upload files",
+		"add_images": "Add images",
+		"admins": "Administrators",
+		"add_admins": "Assign administrators",
+		"clear": "Clear",
+		"close": "Close",
+		"send": "Send",
+		"add_url": "Add URL",
+		"add_token": "Add token",
+		"copy": "Copy",
+		"generate_token": "Generate token",
+		"apply_filters": "Apply filters",
+		"remove_filters": "Remove filters",
+		"export_to_exel": "Export to excel"
+	},
+	"modal": {
+		"important": "Irreversible process",
+		"title": {
+			"add_files": "Add files",
+			"add_images": "Add images"
+		}
+	},
+	"files_upload": {
+		"drag_and_drop": "Drag and drop files here",
+		"drop": "Drop files",
+		"file": "File",
+		"file_type": "Type",
+		"open_file_explorer": "Open files explorer"
+	},
+	"navbar": {
+		"home": "Home",
+		"change_password": "Change password",
+		"exit": "Exit"
+	},
+	"menu": {
+		"title": "Menu",
+		"exit": "Exit"
+	},
+	"forms": {
+		"validation": {
+			"errors": "There are errors in some fields",
+			"required": "This field is required",
+			"minlength": "This field must contain at least {{length}} characters",
+			"maxlength": "This field must contain a maximum of {{length}} characters",
+			"min_max_length": "This field must have at least {{minLength}} and maximum of {{maxLength}} characters",
+			"insert_valid_email": "Insert valid email",
+			"format_hour": "This fields must contain a valid hour format",
+			"password_missmatch": "Passwords does not match",
+			"pattern": "This field contain an invalid value",
+			"phone": "The introduced phone is invalid"
+		},
+		"label": {
+			"name": "Name",
+			"user": "User",
+			"company": "Company",
+			"key_name": "Key name",
+			"password": "Password",
+			"confirm_password": "Confirm password",
+			"current_password": "Current password",
+			"new_password": "New password",
+			"email": "Email",
+			"first_name": "First Name",
+			"last_name": "Last Name",
+			"second_last_name": "Second Last Name",
+			"user_role": "User role",
+			"description": "Description",
+			"address": "Address",
+			"type": "Type",
+			"value": "Value",
+			"week_day": "Week day",
+			"closed": "Closed",
+			"openAt": "Opens at",
+			"closeAt": "Closes at",
+			"starting_at": "Starting at",
+			"ending_at": "Ending at",
+			"title": "Title",
+			"date": "Date",
+			"time": "Time",
+			"mode": "Mode",
+			"choose_date": "Choose a date",
+			"content": "Content",
+			"language": "Language"
+		}
+	},
+	"pages": {
+
+	}
+}
