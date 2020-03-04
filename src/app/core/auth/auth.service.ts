@@ -43,11 +43,6 @@ export class AuthService {
     return null;
   }
 
-  /** Check if user has specific role */
-  userHasRole(keyName) {
-    const role = this.getUserRole();
-    return role ? role.keyName === keyName : false;
-  }
 
   /** Get token from local storage */
   getToken() {
@@ -82,20 +77,20 @@ export class AuthService {
   }
 
   checkWritePermission(user: User, permissionKeys: string[] = []) {
-    let hasPermission = true;
+    // let hasPermission = true;
 
-    if (!permissionKeys || !permissionKeys.length || permissionKeys.every(p => p === '')) {
-      return true;
-    }
+    // if (!permissionKeys || !permissionKeys.length || permissionKeys.every(p => p === '')) {
+    //   return true;
+    // }
 
-    if (user && user.role && user.role.accessList) {
-      hasPermission = permissionKeys.every(p =>
-        p === '' || user.role.accessList.find(a =>
-          a.keyName === p && a.permission === AccessPermissionEnum.WRITE
-        ) !== undefined
-      );
-    }
+    // if (user && user.role && user.role.accessList) {
+    //   hasPermission = permissionKeys.every(p =>
+    //     p === '' || user.role.accessList.find(a =>
+    //       a.keyName === p && a.permission === AccessPermissionEnum.WRITE
+    //     ) !== undefined
+    //   );
+    // }
 
-    return hasPermission;
+    // return hasPermission;
   }
 }

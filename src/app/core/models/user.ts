@@ -1,6 +1,4 @@
 import { BaseModel } from './base';
-import { Company } from './company';
-import { Role } from './role';
 
 export interface User extends BaseModel {
   /** User first name */
@@ -16,11 +14,11 @@ export interface User extends BaseModel {
   /** User has first login (password restore performed) */
   firstLogin?: boolean;
   /** User role */
-  role?: Role;
+  role?: string;
   /** User role id */
   roleId?: number;
   /** User company */
-  company?: Company;
+  company?: string;
   /** User company id */
   companyId?: number;
   /** Is super user */
